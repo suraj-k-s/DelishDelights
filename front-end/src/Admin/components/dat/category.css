@@ -1,0 +1,65 @@
+.category {
+  flex: 4;
+  margin: 60px;
+}
+.categoryForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.categoryItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.categoryItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.categoryItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.categoryButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.categoryList {
+  height: 400px;
+  width: 100%;
+}
+
+.categoryListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #14ce74;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  width: 80px;
+}
+
+.categoryListDelete {
+  color: red;
+  cursor: pointer;
+}
